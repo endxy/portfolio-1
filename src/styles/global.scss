@@ -43,7 +43,14 @@ ul,ol,dl {
   max-width: 120rem;
   margin: 0 auto;
   position: relative;
+  height: 100%;
+
+  @media (max-width:1200px) {
+    padding-left: $space-2 !important;
+    padding-right: $space-2 !important;
+  }
 }
+
 
 h1.tit {
   font-size: clamp(3rem,4vw,4.5rem);
@@ -57,4 +64,9 @@ p.txt{
   font-size: clamp(1.3rem,1.4vw,1.5rem);
   line-height: 1.6;
   color:var(--color-text-muted)
+}
+h3.card-tit {
+  margin-bottom: .8rem;
+  font-size: 1.6rem;
+  color:var(--color-text)
 }

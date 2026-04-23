@@ -23,6 +23,15 @@
     &__small {
         font-size: 1.2rem;
     }
+    &__md {
+        font-size: 1.3rem;
+        border-radius: $radius-sm;
+    }
+    &__ghost{
+        border: 1px solid var(--color-border);
+        background-color: var(--color-card-bg);
+        color:var(--color-text)
+    }
 }
 
 .badge {
