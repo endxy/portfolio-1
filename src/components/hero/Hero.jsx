@@ -29,7 +29,7 @@ const itemVariants = {
 const visualVariants = {
     hidden: {
         opacity: 0,
-        x: 40,
+        y: 40,
         scale: .96
     },
     show: {

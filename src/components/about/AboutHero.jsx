@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../pages/about/About.module.scss'
 import { motion as Motion } from 'framer-motion'
-const AboutHero = ({ icons, motionProps }) => {
+const AboutHero = ({ icons }) => {
 
     const IconMail = icons.mail
     const IconPin = icons.pin
@@ -38,17 +38,17 @@ const AboutHero = ({ icons, motionProps }) => {
 
                 </div>
                 <div className={styles.ctaRow}>
-                    <a href="#" className="btn btn__primary">
+                    <a href="#" className={`btn btn__primary ${styles.btn}`}>
                         <IconDownload />
                         Download resume
                     </a>
-                    <a href="#" className="btn btn__outline">
+                    <a href="#" className={`btn btn__outline ${styles.btn}`}>
                         <IconGithub />
                         View Github
                     </a>
                 </div>
             </div>
-            <div style={styles.heroVisual}>
+            <div className={styles.heroVisual}>
                 <div className={styles.profileCard}>
                     <div className={styles.profilePlaceholder}/>
                 </div>
