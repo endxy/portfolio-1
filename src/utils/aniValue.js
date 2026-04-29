@@ -24,12 +24,12 @@ export const itemVariants = {
 export const visualVariants = {
     hidden: {
         opacity: 0,
-        y: 40,
+        x: 40,
         scale: .96
     },
     show: {
         opacity: 1,
-        y: 0,
+        x: 0,
         scale: 1,
         transition: {
             duration: .7,
