@@ -21,13 +21,15 @@ const ProjectsPages = () => {
     <div className={styles.project_section}>
       <div className="inner">
         <header className={styles.hero}>
-          <span className={styles.badge}>Featured work</span>
+          <span 
+          className="badge badge__primary badge__center"
+          >Featured work</span>
           <h1 className={styles.title}>Projects I&apos;m proud of</h1>
           <p className={styles.lead}>
-            From shipped products to open-source experiments — a sample of things I enjoyed building end to end.
+            From shipped products to open-source experiments <br/> — a sample of things I enjoyed building end to end.
           </p>
         </header>
-        <div className={styles.filter} role='tablist' aria-label='Filter projects by category'>
+        <div className={styles.filters} role='tablist' aria-label='Filter projects by category'>
           {projectFilters.map(({ id, label }) => (
             <button
               key={id}
