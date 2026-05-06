@@ -161,4 +161,105 @@ export const icons = {
             />
         </svg>
     ),
+    sparkle: (props) => (
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
+            <path d="M12 2l1.09 4.26L17 7.27l-3.18 2.55L15.18 14 12 11.77 8.82 14l1.36-4.18L7 7.27l3.91-.99L12 2zm0 10l1.09 4.26L17 17.27l-3.18 2.55L15.18 24 12 21.77 8.82 24l1.36-4.18L7 17.27l3.91-.99L12 12z" />
+        </svg>
+    ),
+
+    monitor: (props) => (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.75" />
+            <path d="M8 20h8M12 16v4" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+        </svg>
+    ),
+
+    server: (props) => (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <rect x="4" y="4" width="16" height="5" rx="1" stroke="currentColor" strokeWidth="1.75" />
+            <rect x="4" y="10" width="16" height="5" rx="1" stroke="currentColor" strokeWidth="1.75" />
+            <circle cx="8" cy="6.5" r="0.75" fill="currentColor" />
+            <circle cx="8" cy="12.5" r="0.75" fill="currentColor" />
+        </svg>
+    ),
+
+    flask: (props) => (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <path
+                d="M10 2h4v5l4 9a3 3 0 0 1-2.65 4.45H8.65A3 3 0 0 1 6 16l4-9V2z"
+                stroke="currentColor"
+                strokeWidth="1.75"
+                strokeLinejoin="round"
+            />
+            <path d="M8 14h8" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+        </svg>
+    ),
+
+    cloud: (props) => (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <path
+                d="M18 17h1a4 4 0 0 0 0-8 6 6 0 0 0-11.5-1.5A4 4 0 0 0 6 17h12"
+                stroke="currentColor"
+                strokeWidth="1.75"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+        </svg>
+    ),
+ copy:(props)=>(
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <rect x="9" y="9" width="11" height="11" rx="2" stroke="currentColor" strokeWidth="1.75" />
+            <path
+                d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"
+                stroke="currentColor"
+                strokeWidth="1.75"
+            />
+        </svg>
+    ),
+    linkedIn:(props)=>(
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
+            <path d="M6.5 6.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM4 9h5v11H4V9zm7 0h4.7v1.5h.1c.6-1.1 2.1-2.3 4.4-2.3 4.7 0 5.6 3.1 5.6 7.1V20h-5v-5.6c0-1.3 0-3-1.8-3-1.9 0-2.2 1.4-2.2 2.9V20h-5V9z" />
+        </svg>
+    ),
+    send:(props)=>(
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <path
+                d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"
+                stroke="currentColor"
+                strokeWidth="1.75"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+        </svg>
+    ),
+    check:(props)=>(
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <path d="M20 6 9 17l-5-5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+    ),
+    briefcase:(props)=>(
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <rect x="3" y="7" width="18" height="12" rx="2" stroke="currentColor" strokeWidth="1.75" />
+            <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" stroke="currentColor" strokeWidth="1.75" />
+        </svg>
+    ),
+    laptop:(props)=>(
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <rect x="3" y="5" width="18" height="11" rx="2" stroke="currentColor" strokeWidth="1.75" />
+            <path d="M2 19h20" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+        </svg>
+    ),
+    globe:(props)=>(
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden {...props}>
+            <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.75" />
+            <path
+                d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"
+                stroke="currentColor"
+                strokeWidth="1.75"
+            />
+        </svg>
+    ),
+
+
+
 }
