@@ -76,6 +76,7 @@ const FeaturedProjectCard = ({
                   <span className={styles.metaIcon}>
                     <MetaIcon />
                   </span>
+                  {text}
                 </span>
               )
             })}
